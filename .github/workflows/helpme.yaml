@@ -206,7 +206,7 @@ jobs:
                 image-ref: 'my-app:latest'
                 # TODO#17: output format for Security tab integration
                 format: 'sarif'
-                output: 'trivvy-result.sarif'
+                output: 'trivy-result.sarif'
                 # TODO#18: which severities should be reported? (UNKNOWN,LOW,MEDIUM,HIGH,CRITICAL)
                 severity: 'HIGH,CRITICAL'
                 # TODO#19: should we include CVEs with no available fix? set flag accordingly
